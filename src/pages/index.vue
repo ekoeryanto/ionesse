@@ -16,6 +16,10 @@ function go() {
 const { t } = useI18n()
 </script>
 
+<route lang="yaml">
+  redirect: /tabs/tab1
+</route>
+
 <template>
   <div>
     <div text-4xl>
